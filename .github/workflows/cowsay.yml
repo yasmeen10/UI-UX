@@ -3,7 +3,7 @@ name: cowsay
 on: push
 
 jobs:
-    Ascii_job:
+    dragon:
         runs-on: ubuntu-latest
         steps:
             - name: checkout repo
@@ -19,11 +19,11 @@ jobs:
               run: grep -i "dragon" dragon.txt
 
             - name: Read File
-              run: cat dargon.txt
+              run: cat dragon.txt
 
             - name: checkout repo files
               run: ls 
-              
+
 
 
 
